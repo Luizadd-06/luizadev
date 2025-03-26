@@ -9,4 +9,5 @@
 - PHP, HTML, CSS, JavaScript, Bootstrap
 - GitHub, SQL, APIs
 
-📌 [LinkedIn](https://www.linkedin.com/in/luiza-dorr-darze-101784213/) | [Portfólio](https://github.com/luizadev)
+📌 [LinkedIn](https://www.linkedin.com/in/luiza-dorr-darze-101784213/) | [Portfólio](https://luizadd-06.github.io/luizadev/)
+))
