@@ -10,11 +10,6 @@ header {
     margin-bottom: 40px;
 }
 
-.foto-perfil {
-    border-radius: 50%;
-    margin: 10px 0;
-}
-
 .projetos, .habilidades, .sobre {
     margin: 40px 0;
 }
