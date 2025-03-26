@@ -1,48 +1,40 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    line-height: 1.6;
-}
-
-header {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.projetos, .habilidades, .sobre {
-    margin: 40px 0;
-    justify-content: center;
-}
-
-.galeria-projetos {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.projeto-item {
-    text-align: center;
-    max-width: 300px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.btn:hover {
-    background-color: #0056b3;
-}
-
-footer {
-    text-align: center;
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid #ccc;
-}
+ <style>
+        body {
+            background-color: #212529;
+            color: #f8f9fa;
+        }
+        header {
+            background-color: #343a40;
+            padding: 2rem;
+            text-align: center;
+        }
+        .sobre, .projetos, .habilidades {
+            padding: 2rem;
+            margin: 1rem 0;
+        }
+        .btn-custom {
+            background-color: #495057;
+            color: #f8f9fa;
+            border: none;
+        }
+        .btn-custom:hover {
+            background-color: #6c757d;
+            color: #f8f9fa;
+        }
+        footer {
+            background-color: #343a40;
+            padding: 1rem;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li:before {
+            content: "✔ ";
+            color: #0d6efd;
+        }
+    </style>
