@@ -12,6 +12,7 @@ header {
 
 .projetos, .habilidades, .sobre {
     margin: 40px 0;
+    justify-content: center;
 }
 
 .galeria-projetos {
