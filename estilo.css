@@ -9,6 +9,7 @@ body {
 
 header {
     background-color: #343a40;
+    color: #ffff;
     padding: 2rem;
     text-align: center;
 }
@@ -40,6 +41,7 @@ main {
 footer {
     background-color: #343a40;
     padding: 1rem;
+    color: #ffff;
     text-align: center;
     width: 100%;
 }
