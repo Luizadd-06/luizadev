@@ -1,38 +1,55 @@
-        body {
-            background-color: #212529;
-            color: #f8f9fa;
-        }
-        header {
-            background-color: #343a40;
-            padding: 2rem;
-            text-align: center;
-        }
-        .sobre, .projetos, .habilidades {
-            padding: 2rem;
-            margin: 1rem 0;
-        }
-        .btn-custom {
-            background-color: #495057;
-            color: #f8f9fa;
-            border: none;
-        }
-        .btn-custom:hover {
-            background-color: #6c757d;
-            color: #f8f9fa;
-        }
-        footer {
-            background-color: #343a40;
-            padding: 1rem;
-            text-align: center;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        ul {
-            list-style: none;
-            padding-left: 0;
-        }
-        li:before {
-            content: "✔ ";
-            color: #0d6efd;
-        }
+body {
+    background-color: #212529;
+    color: #f8f9fa;
+    margin: 0; /* Remove margens padrão do body */
+    display: flex; /* Usa flexbox para centralizar */
+    flex-direction: column; /* Organiza itens em coluna */
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+}
+
+header {
+    background-color: #343a40;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Container principal para centralizar o conteúdo */
+main {
+    max-width: 800px; /* Define uma largura máxima */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 0 1rem; /* Adiciona padding lateral */
+    flex: 1; /* Permite que o main ocupe o espaço disponível */
+}
+
+.sobre, .projetos, .habilidades {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+.btn-custom {
+    background-color: #495057;
+    color: #f8f9fa;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #6c757d;
+    color: #f8f9fa;
+}
+
+footer {
+    background-color: #343a40;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li:before {
+    content: "✔ ";
+    color: #0d6efd;
+}
