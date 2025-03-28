@@ -14,12 +14,11 @@ header {
     text-align: center;
 }
 
-/* Container principal para centralizar o conteúdo */
 main {
-    max-width: 800px; /* Define uma largura máxima */
-    margin: 0 auto; /* Centraliza horizontalmente */
-    padding: 0 1rem; /* Adiciona padding lateral */
-    flex: 1; /* Permite que o main ocupe o espaço disponível */
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 0 1rem; 
+    flex: 1; 
 }
 
 .sobre, .projetos, .habilidades {
@@ -30,7 +29,8 @@ main {
 .btn-custom {
     background-color: #495057;
     color: #f8f9fa;
-    border: none;
+    border-color: #f8f9fa;
+    border-width: 5px;
 }
 
 .btn-custom:hover {
